@@ -1,3 +1,5 @@
+import { StorageTypeEnum } from '@/server/enums/storage-enum';
+
 // 这个模块提供 URL 处理相关工具方法。
 
 // 格式化 HTTP URL，未配置时返回空字符串，未带协议时默认补 https。
